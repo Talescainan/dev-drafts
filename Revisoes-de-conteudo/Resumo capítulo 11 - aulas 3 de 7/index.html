@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 11 - Aulas 3/7</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>Resumo do Capítulo 11 - Aulas 3/7</h1>
+
+    <p>Aqui farei um resumo referente as <strong>3 primeiras aulas do capítulo 11</strong> do <mark>Curso de HTML5 e CSS3 - Módulo 1 do Curso em Vídeo.</mark></p>
+
+    <h2>Aula 1 e 2 - Adaptação e dinâmicas de imagens</h2>
+        <p>Aqui veremos as imagens que conseguem se adaptar de acordo com tamanho da tela do seu dispositvo, seja ele celular, tablet ou computador. <mark>Dê zoom para ver o funcionamento.</mark></p>
+
+        <picture>
+
+            <!-- O elemento <picture> é usado para fornecer diferentes fontes de imagem para diferentes condições, como tamanho da tela ou tipo de dispositivo. Ele permite que os navegadores escolham a melhor imagem com base nas regras definidas. -->
+
+            <source media="(max-width: 600px)" srcset="imagens/goku-P.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="imagens/goku-M.png" type="image/png">
+
+            <!-- O elemento <source> é usado dentro do elemento <picture> para definir diferentes fontes de imagem. O atributo media especifica a condição para a qual a fonte deve ser usada, e o atributo srcset define o caminho para a imagem correspondente. -->
+            
+            <img src="imagens/goku-G.png" alt="Goku">
+        </picture>
+
+        <h2>Aula 3 - Inserção de áudios</h2>
+        <p>Para inserir um áudio em uma página HTML, podemos usar a tag <code>&lt;audio&gt;</code>. Esta tag permite que você incorpore arquivos de áudio em sua página da web. Você pode especificar o arquivo de áudio usando o atributo <code>src</code>, e também pode fornecer controles para os usuários interagirem com o áudio usando o atributo <code>controls</code>.</p>
+
+        <audio autoplay="metadata" controls>
+                <!--A atribuição "metadata" tem como função carregar o arquivo ideal de áudio ao seu navegador.-->
+            <source src="audio/Música Tema Instinto Superior - Animes Z (youtube).mp3" type="audio/mpeg">
+            <source src="audios/Dragon-Ball-Z-Opening-1.ogg" type="audio/ogg">
+            <source src="audios/Dragon-Ball-Z-Opening-1.wav" type="audio/wav">
+                <!-- O elemento <source> é usado dentro do elemento <audio> para definir diferentes fontes de áudio. O atributo src especifica o caminho para o arquivo de áudio, e o atributo type indica o tipo de formato do áudio. Sempre que possível, evite utlizar o formato "wav" pois ele é uns dos arquivos de áudio mais pesados. -->
+                Seu navegador não suporta o elemento de áudio.
+        </audio>
+
+</body>
+</html>
