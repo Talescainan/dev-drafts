@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
+<main>
     <h1>Resumo do Capítulo 11 - Aulas 3/7</h1>
 
     <p>Aqui farei um resumo referente as <strong>3 primeiras aulas do capítulo 11</strong> do <mark>Curso de HTML5 e CSS3 - Módulo 1 do Curso em Vídeo.</mark></p>
@@ -29,14 +30,14 @@
         <h2>Aula 3 - Inserção de áudios</h2>
         <p>Para inserir um áudio em uma página HTML, podemos usar a tag <code>&lt;audio&gt;</code>. Esta tag permite que você incorpore arquivos de áudio em sua página da web. Você pode especificar o arquivo de áudio usando o atributo <code>src</code>, e também pode fornecer controles para os usuários interagirem com o áudio usando o atributo <code>controls</code>.</p>
 
-        <audio autoplay="metadata" controls>
+        <audio preload="metadata" controls>
                 <!--A atribuição "metadata" tem como função carregar o arquivo ideal de áudio ao seu navegador.-->
             <source src="audio/Música Tema Instinto Superior - Animes Z (youtube).mp3" type="audio/mpeg">
-            <source src="audios/Dragon-Ball-Z-Opening-1.ogg" type="audio/ogg">
-            <source src="audios/Dragon-Ball-Z-Opening-1.wav" type="audio/wav">
+            <source src="audio/Música Tema Instinto Superior - Animes Z (youtube).mp3" type="audio/ogg">
+            <source src="audio/Música Tema Instinto Superior - Animes Z (youtube).mp3" type="audio/wav">
                 <!-- O elemento <source> é usado dentro do elemento <audio> para definir diferentes fontes de áudio. O atributo src especifica o caminho para o arquivo de áudio, e o atributo type indica o tipo de formato do áudio. Sempre que possível, evite utlizar o formato "wav" pois ele é uns dos arquivos de áudio mais pesados. -->
                 Seu navegador não suporta o elemento de áudio.
         </audio>
-
+</main>
 </body>
 </html>
