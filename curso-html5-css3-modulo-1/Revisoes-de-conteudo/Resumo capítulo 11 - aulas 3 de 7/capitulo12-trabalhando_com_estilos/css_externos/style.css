@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+mark {
+    background-color: #026583;
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+}
