@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 13 - 6/7</title>
+    <style>
+    /* TODO O CSS FOI FEITO POR IA */
+    body {
+        background: linear-gradient(to right, #ffa600, #ff0000);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #333333;
+        margin: 0;
+        padding: 40px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        box-sizing: border-box;
+    }
+
+    /* Container Principal (Card) */
+    .container {
+        background-color: rgba(255, 255, 255, 0.95);
+        max-width: 800px;
+        width: 100%;
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Tipografia */
+    h1 {
+        color: #d10000;
+        font-size: 2.2rem;
+        margin-top: 0;
+        border-bottom: 3px solid #ffa600;
+        padding-bottom: 10px;
+    }
+
+    h2 {
+        color: #333;
+        font-size: 1.6rem;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    h3 {
+        color: #555;
+        font-size: 1.1rem;
+        font-style: italic;
+        background-color: #f9f9f9;
+        padding: 15px;
+        border-left: 5px solid #ff0000;
+        margin-top: 25px;
+    }
+
+    p {
+        line-height: 1.6;
+        font-size: 1.05rem;
+    }
+
+    /* Links e Listas */
+    ul {
+        padding-left: 20px;
+        margin-bottom: 25px;
+    }
+
+    li {
+        margin-bottom: 8px;
+    }
+
+    a {
+        color: #ff0000;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s ease;
+    }
+
+    a:hover {
+        color: #b30000;
+        text-decoration: underline;
+    }
+
+    /* Destaques e Imagens */
+    mark {
+        background-color: #ffe600;
+        color: #000;
+        padding: 2px 6px;
+        border-radius: 4px;
+        font-weight: bold;
+    }
+
+    picture {
+        display: block;
+        text-align: center;
+        margin: 25px 0;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1>Capítulo 13 - 6/7</h1>
+        <p>Resumo das aulas 4, 5 e 7</p>
+        
+        <h2>Aula 4 - Paleta de cores</h2>
+        <p>Nesta aula aprendemos que ter uma boa paleta de cores ao seu site é muito importante. Para mais informações, acesse a Parte 1 do capitulo 13 neste repositório.</p>
+
+        <p>Para criar uma paleta de cores, existem alguns sites que podem ajudar de forma gratuita:</p>
+
+        <ul>
+            <li><a href="https://color.adobe.com/" target="_blank">Adobe Color</a></li>
+            <li><a href="http://coolors.co" target="_blank">Coolors</a></li>
+            <li><a href="http://paletton.com" target="_blank">Paletton</a></li>
+        </ul>
+
+        <h2>Aula 5 - Capturação de Cores</h2>
+        <p>Com certeza você viu aquele site como uma cor bonita e tirou print para pega-lá para seu projeto. A uma maneira mais eficaz, e eu irei te mostrar agora.</p>
+        <p>Para fazer a captura das cores de um site que você gostou, existe uma ferramenta para isso, o <i><mark>ColorZilla</mark></i>.</p>
+
+        <picture>
+            <source srcset="colorzilla1.jpg" media="(min-width: 550px)">
+            <source srcset="colorzilla2.jpg" media="(max-width: 500px)">
+            <img src="colorzilla3.jpg" alt="ColorZilla" style="width: 400px; max-width: 100%;">
+        </picture>
+
+        <p>O ColorZilla é uma extensão para o navegador Google Chrome, e pode ser baixada gratuitamente na Chrome Web Store. Ele permite que você capture as cores de qualquer elemento em uma página da web, facilitando a criação de paletas de cores para seus projetos.</p>
+
+        <h2>Aula 6 - Degradês</h2>
+        <p>Aprendemos nas aulas anteriores sobre o círculo cromático, com ele podemos escolher nossas paleta de cores, mas também com ele, podemos criar degradês com base nas harmonias das cores. </p>
+        
+        <h3>Como você pode ver, no fundo desta página há um degradê.</h3>
+    </div>
+</body>
+</html>        
