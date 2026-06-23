@@ -1,12 +1,11 @@
-# 🚀 Minhas Práticas e Rascunhos
+# 🚀 My Practices and Drafts
+Hello! Welcome. 👋
 
-Olá! Seja muito bem-vindo(a). 👋
+This repository was created to centralize **my coding practices, studies, and drafts.** The main goal here is to document and demonstrate my continuous evolution in the programming world.
 
-Este repositório foi criado para centralizar minhas **práticas, estudos e rascunhos de código**. O objetivo principal aqui é documentar e demonstrar a minha evolução contínua no mundo da programação.
+### 📌 What you will find here:
+*Logic exercises.
+*Testing new technologies.
+*Drafts of interfaces and features.
 
-### 📌 O que você encontrará aqui:
-* Exercícios de lógica.
-* Testes de novas tecnologias.
-* Rascunhos de interfaces e funcionalidades.
-
-> "O foco não é a perfeição inicial, mas o progresso constante."
+>"Practice makes perfect."
