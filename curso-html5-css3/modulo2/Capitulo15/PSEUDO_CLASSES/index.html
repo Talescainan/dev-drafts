@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aulas 03/04</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1 id="principal">Aulas 03/04 - PSEUDO CLASSES</h1>
+        <h2>Aula 1: Identificadores em CSS</h2>
+        <h2>O que é?</h2>
+        <p class="p1">Identificadores em CSS são usados para selecionar elementos HTML específicos para aplicar estilos. Eles são definidos usando o atributo "id" em um elemento HTML e são referenciados no CSS com o símbolo <mark class="marktext">"#"</mark>.</p>
+        <div id="exemplo">
+            <h2>Exemplo de uso</h2>
+            <p>HTML:</p>
+            <pre>
+                <code class="htmlex1">
+                    &lt;div id="meu-identificador"&gt;Conteúdo do div&lt;/div&gt;
+                </code>
+            </pre>
+            <p>CSS:</p>
+            <pre>
+                <code class="cssex1">
+                    &lt;style&gt;
+                        #meu-identificador {
+                            color: red;
+                            font-size: 20px;
+                        }
+                    &lt;/style&gt;
+                </code>
+            </pre>
+        </div>
+
+        <h2>Aula 02: As diferenças entre id e class</h2>
+
+        <p>
+            Um identificador tem como principal função, destacar somente um unico elemento dentro do HTML. O que torna uma classe mais acessível, pois não há limites de uso, possibilitando variás elementos com classes <strong>diferentes</strong>, sem a limitação de somente uma. Um identificador pode até ser usado variás vezes, mas utilize nas tags principais para uma melhor organização.
+        </p>
+
+        <h2>Aula 03: Pseudo-classes em CSS</h2>
+
+        Pseudos-classes são literalmente, <mark>"<strong>:</strong>"</mark>, elas tem que está relacionada a um elemento ou uma classe.
+
+        <div id="exemplo">
+            <h3>Exemplo de uso:</h3>
+            <pre>
+                <code class="cssex2">
+                &lt;style&gt;
+                    div:hover > p {
+                        display: block;
+                        color: white;
+                        background-color: red;
+                        width: 300px;
+                    }
+                    div:hover {
+                        color:red
+                    }
+                &lt;/style&gt;
+                </code>
+            </pre>
+        </div>
+    </main>
+</body>
